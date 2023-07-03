@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+//esse é o html usado para o corpo do site
+ <div class="conteiner-musica">
+    <h5 id="titulo-playlist" >playlist music zaca</h5>
+    <img id="capa" alt="capa do disco" > </img>
+    <audio id="audio" > </audio>
+
+    <div id="inf-conteiner"> 
+        <div id="inf-musica-conteiner">
+          <div id="nome-musica"> Nome Da Música</div>
+          <div id="nome-banda" class="cor-clara"> Banda</div>
+        </div>
+       <button id="like" class="button cor-clara" > <i class="bi bi-hand-thumbs-up"></i></i></button>
+    </div>
+ 
+    <div id="barra-progresso"> 
+        <div id="progresso-atual"> </div>
+    </div>
+
+    <div id="botões-conteiner">
+       <button id="embaralhar" class="button" > <i class="bi bi-shuffle"></i></button>
+       <button id="voltar" class="button button-navegação"><i class="bi bi-skip-start-fill"></i></button>
+       <button id="play" class="button button-maior"><i class="bi bi-play-circle"></i></button>
+       <button id="passar" class="button button-navegação"><i class="bi bi-skip-end-fill"></i></button>
+       <button id="repetir" class="button" ><i class="bi bi-infinity"></i></button>
+    </div>
+
+ </div>
+ <script src="/script.js"> </script>
+</body>
+</html>
